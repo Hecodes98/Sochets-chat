@@ -1,0 +1,26 @@
+{
+  "name": "Sockets-chat",
+  "version": "1.0.0",
+  "description": "Chat creado con Node.js, Express y Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hecodes98/Sockets-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hecodes98/Sockets-chat/issues"
+  },
+  "homepage": "https://github.com/Hecodes98/Sockets-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
