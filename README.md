@@ -10,11 +10,8 @@ Proyecto realizado para entender el funcionamiento de las apps en tiempo real, r
 ``npm i``
 
 *Por ultimo como puedes ver en el package.json, hay una serie de scripts*
-``"scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-  },``
+    // Settings
+app.set("port", process.env.PORT || 3000); //Configuramos el puerto
  Corre el script dev en tu terminal con el siguiente comando
  
  ``npm run dev``
