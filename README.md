@@ -10,10 +10,10 @@ Proyecto realizado para entender el funcionamiento de las apps en tiempo real, r
 ``npm i``
 
 *Por ultimo como puedes ver en el package.json, hay una serie de scripts*
-    // Settings
+   `` // Settings
 app.set("port", process.env.PORT || 3000); //Configuramos el puerto
  Corre el script dev en tu terminal con el siguiente comando
- 
+ ``
  ``npm run dev``
  Y listo pueden abrir en tu navegador tu localhost:3000 o dentro del index.js cambiar el puerto al puerto que desees.
  ``// Settings
